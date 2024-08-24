@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css?ver=1">
+    <title>ДОМ СТРОЙ24</title>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+</head>
+
+<body>
+    <header>
+
+        <div class="nav">
+            <div class="logo-wrapper">
+                <div class="logo-name">
+
+                </div>
+                <div class="logo-desc">
+                    <span>Строим</span>
+                    <span>энергоэффективные</span>
+                    <span>дома</span>
+                </div>
+            </div>
+            <div class="tel-wrapper">
+                <a href="tel:+79268449661">8(926) 844-96-61</a>
+                <span>Ежедневно с 9:00 до 20:00</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-wrapper">
+                <h1>
+                    Проектируем <br> и строим тёплые загородные дома
+                </h1>
+                <p>Строим надёжные дома, <br> по технологии и без экономии на качестве. <br>Фиксируем сроки и
+                    стоимость в договоре, все непредвиденные расходы берём на себя.
+                </p>
+                <div class="btn-wrapper">
+                    <div class="btn-action" onclick="openPopup()">Рассчитать стоимость дома</div>
+                    <span>
+                        и получить бесплатную <br> 3D-визуализацию
+                    </span>
+                </div>
+            </div>
+            <div class="desc-bg">
+                На фото: <br>
+                построенный дом в посёлке Раздолье, 2023 год
+            </div>
+        </div>
+
+        <div class="gradient-top"></div>
+        <div class="gradient-left"></div>
+        <div class="gradient-right"></div>
+        <div class="gradient-bottom"></div>
+
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+
+                <div class="about-items">
+                    <div class="about-item">
+                        <h3>Работаем с ипотекой</h3>
+                    </div>
+                    <div class="about-item" style="background-color: #f1ebf5;">
+                        <h3>Проводим экскурсии по строящимся <br> и готовым домам</h3>
+                    </div>
+                    <div class="about-item" style="background-color: #fce7e8;">
+                        <h3>Строим из качественных материалов</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="project">
+            <div class="container">
+                <h2>Готовые проекты</h2>
+
+                <div class="project-items">
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/125.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>140 м<sup>2</sup> с учётом террасы</span>
+                            <span>3 спальни, 2 санузла</span>
+                            <span class="price">
+                                2 960 000 руб.
+                                <span class="price-footer">
+                                    21 142 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/suyy-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>131 м<sup>2</sup> с учётом крыльца и террасы</span>
+                            <span>2 спальни, 1 санузел, 1 гардеробная</span>
+                            <span class="price">
+                                3 380 000 руб.
+                                <span class="price-footer">
+                                    25 801 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/Bitmap.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>133 м<sup>2</sup> с учётом террасы</span>
+                            <span>4 спальни, 2 санузла</span>
+                            <span class="price">
+                                2 945 000 руб.
+                                <span class="price-footer">
+                                    22 142 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/gl1-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>158 м<sup>2</sup> с учётом террасы</span>
+                            <span>3 спальни, 2 санузла</span>
+                            <span class="price">
+                                3 582 000 руб.
+                                <span class="price-footer">
+                                    22 670 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/dbkkfkbkf-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>190 м<sup>2</sup> с учётом террасы</span>
+                            <span>3 спальни, 3 санузла</span>
+                            <span class="price">
+                                3 770 000 руб.
+                                <span class="price-footer">
+                                    22 608 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/12jpg-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>107 м<sup>2</sup> с учётом крыльца и террасы</span>
+                            <span>2 спальни, 1 санузел</span>
+                            <span class="price">
+                                2 882 000 руб.
+                                <span class="price-footer">
+                                    26 934 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/sosb-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>112 м<sup>2</sup> с учётом террасы</span>
+                            <span>2 спальни, 1 санузел</span>
+                            <span class="price">
+                                3 086 000 руб.
+                                <span class="price-footer">
+                                    27 553 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/Bitmap_Copy.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>102,6 м<sup>2</sup> с учётом террасы</span>
+                            <span>3 спальни, 1 санузел</span>
+                            <span class="price">
+                                2 289 000 руб.
+                                <span class="price-footer">
+                                    22 309 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/Bitmap_Copy_6.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>133,3 м<sup>2</sup> с учётом террасы</span>
+                            <span>4 спальни, 1 санузел</span>
+                            <span class="price">
+                                2 982 000 руб.
+                                <span class="price-footer">
+                                    22 370 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/Bitmap_Copy_7.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>132 м<sup>2</sup> с учётом крыльца</span>
+                            <span>3 спальни, 2 санузла</span>
+                            <span class="price">
+                                2 490 000 руб.
+                                <span class="price-footer">
+                                    18 863 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/3krkr-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>169 м<sup>2</sup> с учётом террасы</span>
+                            <span>4 спальни, 2 санузла</span>
+                            <span class="price">
+                                3 629 000 руб.
+                                <span class="price-footer">
+                                    21 473 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/Bitmap_Copy_9.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>175 м<sup>2</sup> с учётом крыльца и балкона</span>
+                            <span>5 спален, 2 санузла</span>
+                            <span class="price">
+                                2 490 000 руб.
+                                <span class="price-footer">
+                                    18 863 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/agal-2.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>166 м<sup>2</sup> с учётом террасы</span>
+                            <span>3 спальни, 2 санузла</span>
+                            <span class="price">
+                                3 753 000 руб.
+                                <span class="price-footer">
+                                    22 608 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/proj/soy.jpg" alt="">
+                        </div>
+                        <div class="project-item-desc">
+                            <span>168 м<sup>2</sup> с учётом крыльца и террасы</span>
+                            <span>4 спальни, 2 санузла</span>
+                            <span class="price">
+                                4 228 000 руб.
+                                <span class="price-footer">
+                                    25 166 руб/м<sup>2</sup>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-form">
+            <div class="container">
+                <div class="form-wrapper sale">
+                    <div class="form-desc">
+                        <h2>
+                            вы можете собрать <br> дом самостоятельно, <br> и сэкономить <br>
+                            до 400 000 рублей
+                        </h2>
+                        <ul class="list-form">
+                            <li class="list-form-item">
+                                Изготовим и доставим домкомплект
+                            </li>
+                            <li class="list-form-item">
+                                Предоставим весь крепёж
+                            </li>
+                            <li class="list-form-item">
+                                Дадим инструкцию по сборке
+                            </li>
+                            <li class="list-form-item">
+                                Проконтролируем качество строительства
+                            </li>
+                            <li class="list-form-item">
+                                Проведём экскурсию по производству
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="form" action="./myform.php">
+                        <div>
+                            <strong>Оставьте контакты.</strong><br>
+                            <span>
+                                Мы ответим на вопросы и расскажем <br> подробности по телефону
+                            </span>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone">
+                                Телефон</label>
+                            <input type="tel" name="phone" required placeholder="+7 999 999-99-99">
+
+                            <label for="name">
+                                Имя</label>
+                            <input type="text" name="name" required placeholder="Иван">
+
+                        </div>
+                        <button class="btn-action secondary-btn m-size" type="submit">Оставить заявку</button>
+                        <div class="policy">
+                            <span>Нажимая на кнопку, вы даёте согласие на обработку <br> персональных данных</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2>
+                    Построили 200+ домов <br> площадью от 63 м² до 428 м²
+                </h2>
+                <div class="reviews-container">
+                    <div class="reviews-item">
+                        <div class="reviews-item-img-wrapper">
+                            <div class="reviews-item-img">
+                                <img src="./img/reviews/_1.jpg" alt="review">
+                            </div>
+                            <div class="reviews-item-desc">
+                                <div class="reviews-item-title">
+                                    Южный парк
+                                </div>
+                                <div class="reviews-item-option">
+                                    <span>7,5 x 8.4 м</span>
+                                    <span>121,4 м<sup>2</sup></span>
+                                    <span>4 спальни</span>
+                                </div>
+                                <div class="reviews-item-year">
+                                    2020 г.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-item-review" style="color: rgb(17, 194, 106); background-color: #ecfce7;">
+                            <div class="reviews-item-review-desc">
+                                Спасибо "ДОМ СТРОЙ24" за дом в КП Южный Парк.
+                                Все профессионально и по-человечески. Мы накосячили
+                                с заказом кровли, спутали производителя. Денис помог
+                                сделать возврат и заказать правильную<br>
+                                Успехов в работе!
+                            </div>
+                            <div class="reviews-item-review-client">
+                                <div class="client-img">
+                                    <img src="./img/reviews/user1.jpg" alt="">
+                                </div>
+                                <div class="client-name">
+                                    Максим Деревянко
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-item-review"
+                            style="color: rgb(144, 17, 194); background-color: #f8e7fc; transform: rotate(5deg);">
+                            <div class="reviews-item-review-desc">
+                                Рекомендую эту строительную компанию всем друзьям и знакомым.
+                                Приятно удивлены, что на рынке есть на столько добросовестные
+                                и честные компании. Спасибо Дом Строй за наш самый красивый и теплый дом!
+                            </div>
+                            <div class="reviews-item-review-client">
+                                <div class="client-img">
+                                    <img src="./img/reviews/14.jpg" alt="">
+                                </div>
+                                <div class="client-name">
+                                    Ольга Желкович
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews-item-img-wrapper">
+                            <div class="reviews-item-img">
+                                <img src="./img/reviews/_1_copy_2.jpg" alt="review">
+                            </div>
+                            <div class="reviews-item-desc">
+                                <div class="reviews-item-title">
+                                    Борисово
+                                </div>
+                                <div class="reviews-item-option">
+                                    <span>8,5 x 11.5 м</span>
+                                    <span>115,7 м<sup>2</sup></span>
+                                    <span>4 спальни</span>
+                                </div>
+                                <div class="reviews-item-year">
+                                    2021 г.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-item-img-wrapper">
+                            <div class="reviews-item-img">
+                                <img src="./img/reviews/_1_copy.jpg" alt="review">
+                            </div>
+                            <div class="reviews-item-desc">
+                                <div class="reviews-item-title">
+                                    Правдино
+                                </div>
+                                <div class="reviews-item-option">
+                                    <span>10 x 13 м</span>
+                                    <span>108,6 м<sup>2</sup></span>
+                                    <span>3 спальни</span>
+                                </div>
+                                <div class="reviews-item-year">
+                                    2021 г.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-item-review" style="color: rgb(194, 17, 17); background-color: #fce7e7;">
+                            <div class="reviews-item-review-desc">
+                                Перед тем, как обратиться к "Дом Строй24", мы закидывали наш план в 3 компании.
+                                Их предложения по цене по первичным прикидкам были выше, что нас абсолютно не устраивало
+                                по планируемому бюджету.
+                            </div>
+                            <div class="reviews-item-review-client">
+                                <div class="client-img">
+                                    <img src="./img/reviews/4f2d924066d36d9f8778eabb4177.jpg" alt="">
+                                </div>
+                                <div class="client-name">
+                                    Алексей и Татьяна Осиповы
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="form-project">
+            <div class="container">
+                <div class="form-project-header">
+                    <h2>
+                        Индвидиуальное <br> проектирование
+                    </h2>
+                    <div class="form-project-desc">
+                        Сделаем проект дома, благодаря которому <br> дом будет надёжнее, а строительство — дешевле
+                    </div>
+                    <div class="btn-action" onclick="openPopup()">Рассчитать стоимость дома</div>
+                    <div class="question-project top-left"> Зачем нужен проект?</div>
+                    <div class="question-project top-right"> Как проект может сэкономить Ваш бюджет?</div>
+                    <div class="question-project bottom-left">Что будет, если строить дом без проекта?</div>
+                    <div class="question-project bottom-right">Сколько стоить проект?</div>
+                </div>
+
+                <div class="form-project-wrapper">
+                    <h2>
+                        Уже есть проект? <br>
+                        Рассчитаем стоимость
+                    </h2>
+                    <form  class="project-form" action="formProject.php">
+                        <div class="wrapper-input">
+                            <label for="link">Прикрепите ссылку на проект</label>
+                            <input type="text" name="link" placeholder="sips-house.com/sips_house-80">
+                        </div>
+                        <div class="wrapper-input">
+                            <label>Или прикрепите файлы проекта</label>
+                            <span>до 10 файлов</span>
+                            <div class="input-file-row">
+                                <label class="input-file">
+                                    <input type="file" name="file[]" multiple>
+                                    <span>Выберите файл</span>
+                                </label>
+                                <div class="input-file-list"></div>
+                            </div>
+                        </div>
+                        <div class="wrapper-input">
+                            <label for="text">Комментарии и пожелания</label>
+                            <textarea class="text-input" name="text" id=""></textarea>
+                        </div>
+                        <div class="wrapper-input">
+                            <label for="mail">Почта</label>
+                            <span>На неё мы пришлём смету и визуализацию</span>
+                            <input type="email" name="mail" required placeholder="ivanov@mail.ru">
+                        </div>
+                        <div class="wrapper-input">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" placeholder="Иван">
+                        </div>
+                        <div class="wrapper-input">
+                            <label for="tel">Телефон</label>
+                            <input type="tel" name="tel" required placeholder="+7 (999) 999-99-99">
+                        </div>
+                        <button class="btn-action m-size black-hover" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="company-wrapper">
+                <div class="logo">
+
+                </div>
+                <div class="company">
+                    <span>ИП Сарибекян Ани Вардановна</span>
+                    <span>ИНН: 971506445407</span>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-wrapper">
+                    <div class="contanct-title">
+                        Встретиться в офисе
+                    </div>
+                    <div class="contact-desc">
+                        город Москва, <br> поселок Мосрентген, <br> квартал 10, дом 28.
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contanct-title">
+                        Согласовать выезд на участок, <br> записаться на экскурсию <br> или задать вопросы:
+                    </div>
+                    <div class="contact-desc">
+                        <a href="tel:+79268449661">8 (926) 844-96-61</a>
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contanct-title">
+                        Прислать проект на расчёт
+                    </div>
+                    <div class="contact-desc">
+                        <div class="btn-action white-btn m-size" onclick="openformProj()">Отправить через форму</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup-form hidden">
+        <div class="container">
+            <div id="popup" class="form-wrapper">
+                <form id="form-popup" class="form">
+                    <div>
+                        <h3>Оставьте контакты.</h3>
+                        <span>
+                            Мы ответим на вопросы и расскажем <br> подробности по телефону
+                        </span>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="phone">
+                            Телефон</label>
+                        <input type="tel" name="phone" required placeholder="+7 999 999-99-99">
+
+                        <label for="name">
+                            Имя</label>
+                        <input type="text" name="name" required placeholder="Иван">
+
+                    </div>
+                    <button class="btn-action m-size black-hover" type="submit">Оставить заявку</button>
+                    <div class="policy">
+                        <span>Нажимая на кнопку, вы даёте согласие на обработку <br> персональных данных</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="close-pop-up">
+            <svg role="presentation" class="t-popup__close-icon" width="23px"
+                height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect
+                        transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) "
+                        x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect
+                        transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) "
+                        x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+        </div>
+
+    </div>
+    <div class="popup-send-data hidden">
+        <div class="send-wrapper">
+            <span>
+                Заявка отправлена!
+            </span>
+        </div>
+    </div>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>
